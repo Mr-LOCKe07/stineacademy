@@ -197,7 +197,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/photo-1620266757065-5814239881fd.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -431,4 +431,15 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.course-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.gallery img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
 }
